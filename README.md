@@ -1,7 +1,7 @@
 ## Acknowledgment
 This project was built by following a tutorial for learning purposes. I implemented and adapted the code to better understand the concepts.
 
-Traversy Media
+Traversy Media:
 https://youtu.be/ontX4zfVqK8
 
 # Wildfire Tracker
