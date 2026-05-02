@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+## Acknowledgment
+This project was built by following a tutorial for learning purposes. I implemented and adapted the code to better understand the concepts.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Traversy Media
+https://youtu.be/ontX4zfVqK8
 
-## Available Scripts
+# Wildfire Tracker
+A web application that displays real-time wildfire events on an interactive map using data from NASA’s EONET API. Users can explore wildfire locations and click on markers to view additional event details.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Overview
+Wildfire Tracker visualizes live wildfire data on a map interface, making it easy to identify where events are occurring around the world. The application fetches data from NASA’s EONET API and renders dynamic markers for each wildfire event.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React (JavaScript)
+- Google Maps (google-map-react)
+- NASA EONET API
+- HTML & CSS
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##Features
+- Displays real-time wildfire data on an interactive map  
+- Dynamic markers representing wildfire locations  
+- Clickable markers showing event ID and title  
+- Loading state while fetching API data  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## What I Learned
+- Structuring a React application using components and state  
+- Fetching and working with external APIs  
+- Handling geolocation data (latitude/longitude)  
+- Improving performance with useMemo and useCallback  
+- Debugging issues with third-party libraries  
+- Understanding how React rendering impacts performance  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Challenges & Fixes
+- Fixed map rendering issues caused by missing center and zoom props  
+- Resolved marker drift caused by unnecessary React re-renders  
+- Improved performance by memoizing marker rendering and filtering logic  
+- Handled runtime errors from undefined coordinates  
+- Identified compatibility limitations with google-map-react and React 18  
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Future Improvements
+- Add filtering for multiple event types (not just wildfires)  
+- Enhance UI/UX with improved styling and animations  
+- Display more detailed event information (e.g., date, severity)  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
