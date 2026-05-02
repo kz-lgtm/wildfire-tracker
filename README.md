@@ -12,7 +12,7 @@ A web application that displays real-time wildfire events on an interactive map 
 ## Overview
 Wildfire Tracker visualizes live wildfire data on a map interface, making it easy to identify where events are occurring around the world. The application fetches data from NASA’s EONET API and renders dynamic markers for each wildfire event.
 
-##Tech Stack
+## Tech Stack
 
 - React (JavaScript)
 - Google Maps (google-map-react)
@@ -21,7 +21,7 @@ Wildfire Tracker visualizes live wildfire data on a map interface, making it eas
 
 ---
 
-##Features
+## Features
 - Displays real-time wildfire data on an interactive map  
 - Dynamic markers representing wildfire locations  
 - Clickable markers showing event ID and title  
